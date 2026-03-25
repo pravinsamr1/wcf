@@ -3620,7 +3620,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 
 .hero-layout4 .vs-hero-bg {
-  padding: 240px 0 210px 0;
+  padding: 100px 0 50px 0;
   position: relative;
   z-index: 2;
   /* Large devices */
@@ -3674,7 +3674,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 .hero-layout4.style2 .hero-title {
   color: #3D203F;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 74px;
   margin-bottom: 28px;
 }
