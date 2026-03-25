@@ -285,14 +285,12 @@ document.addEventListener("DOMContentLoaded", function () {
                                         text commonly used.
                                     </p>
                                     <div class="footer-social">
-                                        <a href="#"><i
+                                        <a target="_blank" href="https://www.facebook.com/tnagarwcf#"><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i
-                                                class="fab fa-twitter"></i></a>
-                                        <a href="#"><i
-                                                class="fab fa-linkedin-in"></i></a>
-                                        <a href="#"><i
-                                                class="fab fa-google-plus-g"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/channel/UC6mZ-xksliGog6Scqc4RrlA"><i
+                                                class="fab fa-youtube"></i></a>
+                                        <a target="_blank" href="https://www.instagram.com/wcftnagar"><i
+                                                class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
