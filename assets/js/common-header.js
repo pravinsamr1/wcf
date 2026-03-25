@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <a href="index.html">Home</a>
                                 </li>
                                 <li class>
-                                    <a href="about-v1.html">About Us</a>
+                                    <a href="about.html">About Us</a>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>

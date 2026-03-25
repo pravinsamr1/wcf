@@ -1949,6 +1949,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 .menu-sticky1 > ul > li > a {
   padding: 27px 0;
+  color: #000 !important;
 }
 
 .menu-sticky3 > ul > li {
@@ -7871,8 +7872,8 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 .vs-counter-bg {
   position: relative;
   z-index: 3;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   /* Extra large devices */
 }
 @media (max-width: 1500px) {
@@ -12394,9 +12395,9 @@ p{
   color: #fff !important;
 }
 
-.about-space{
-  padding-top: 240px;
-  padding-bottom: 0px;
+.about-spacee{
+  padding-top: 70px;
+  padding-bottom: 40px;
 
 }
 
@@ -12531,4 +12532,13 @@ p{
 
 .about-text {
   font-size: 40px !important;
+}
+
+.home-black-bg-padd{
+  padding-bottom: -20px;
+}
+
+.blog-spacing{
+  padding-top: 60px;
+  padding-bottom: 10px;
 }
