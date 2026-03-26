@@ -260,7 +260,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <footer
     class="footer-wrapper footer-layout1 bg2 space-top space-md-top"
     data-bg-src="/assets/my-img/footer.jpg" 
-    style="padding: 10px 0px -40px; padding-top: 70px; background-image: url('/assets/my-img/footer.jpg');">
+    style="padding: 10px 0px -40px; padding-top: 70px; background-image: url('assets/my-img/footer.jpg');">
             <div class="container">
                 <div
                     class="widget-area space-bottom space-md-bottom"
