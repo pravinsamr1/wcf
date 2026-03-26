@@ -1486,7 +1486,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   }
 }
 .section-title > img {
-  margin-top: 17px;
+  margin-top: 0px;
 }
 .section-title.mb-65, .section-title.mb-80, .section-title.mb-85 {
   margin-bottom: 50px;
@@ -3294,7 +3294,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 
 .breadcumb-title {
-  font-size: 60px;
+  font-size: 40px;
   /* Medium devices */
   /* Small devices */
 }
@@ -5075,7 +5075,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   border-top: none;
   padding: 35px 30px 22px 30px;
   margin-top: -9px;
-  border: 1px solid var(--border-color);
+  border: 1px solid #e1e1e1;
   transition: all ease 0.4s;
 }
 .vs-services-box2 .service-title a {
@@ -12541,4 +12541,96 @@ p{
 .blog-spacing{
   padding-top: 60px;
   padding-bottom: 10px;
+}
+.blog-detail-spacee {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.blog-bullet-points li{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-box {
+  background: #fff;
+  width: 90%;
+  max-width: 900px;
+  padding: 25px;
+  border-radius: 30px;
+  position: relative;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff6b9d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-group input::placeholder{
+  font-weight: 600;
+}
+
+.form-group select{
+  font-weight: 600;
+}
+
+#appointmentForm textarea::placeholder{
+  font-weight: 600;
+}
+
+#appointmentForm button{
+  font-weight: 600;
+  font-size: 18px;
 }

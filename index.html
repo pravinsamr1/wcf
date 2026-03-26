@@ -1181,5 +1181,65 @@
 
 
         <script src="assets/js/common-header.js"></script>
+
+
+
+        <!-- GLOBAL BOOK APPOINTMENT POPUP -->
+<div id="appointmentPopup" class="popup-overlay">
+  <div class="popup-box">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+
+    <h2 class="text-center pb-20">Book Appointment</h2>
+
+    <form id="appointmentForm">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="number" name="age" placeholder="Age" required>
+      </div>
+
+      <div class="form-group">
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <input type="email" name="email" placeholder="Email Address">
+      </div>
+
+      <div class="form-group">
+        <select name="pregnant">
+          <option value="">Are you pregnant?</option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
+        <input type="text" name="weeks" placeholder="Weeks of Pregnancy">
+      </div>
+
+      <div class="form-group">
+        <select name="department" required>
+          <option value="">Select Department</option>
+          <option>Obstetrics</option>
+          <option>Gynecology</option>
+          <option>Pediatrics</option>
+          <option>Fertility / IVF</option>
+          <option>General Consultation</option>
+        </select>
+
+        <select name="doctor">
+          <option value="">Preferred Doctor</option>
+          <option>Dr. Anitha</option>
+          <option>Dr. Priya</option>
+          <option>Dr. Kavya</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <input type="date" name="date" required>
+        <input type="time" name="time" required>
+      </div>
+
+      <textarea name="notes" placeholder="Health concerns..."></textarea>
+
+      <button type="submit" class="submit-btn">Confirm Appointment</button>
+    </form>
+  </div>
+</div>
     </body>
 </html>

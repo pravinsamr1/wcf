@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div
                         class="col-auto"
                         style="display: flex; align-items: center; gap: 20px">
-                        <div class="book-appoint">
+                        <div class="book-appoint open-appointment">
                             <a href>Book Appointment</a>
                         </div>
 
@@ -374,3 +374,25 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("footer").innerHTML = footer;
 });
 
+// OPEN POPUP FROM ANY BUTTON
+document.addEventListener("click", function (e) {
+  const btn = e.target.closest(".open-appointment");
+
+  if (btn) {
+    e.preventDefault(); // 🔥 THIS FIXES YOUR ISSUE
+    document.getElementById("appointmentPopup").style.display = "flex";
+  }
+});
+
+// CLOSE POPUP
+function closePopup() {
+  document.getElementById("appointmentPopup").style.display = "none";
+}
+
+// CLOSE WHEN CLICK OUTSIDE
+window.addEventListener("click", function (e) {
+  const popup = document.getElementById("appointmentPopup");
+  if (e.target === popup) {
+    popup.style.display = "none";
+  }
+});
