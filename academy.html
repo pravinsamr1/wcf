@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>WCF Blogs | The New Life Begins</title>
+    <title>Acedemy | The New Life Begins</title>
     <meta name="author" content="Vecuro">
     <meta name="description" content="Huntar - Hunting & Outdoor Service HTML Template">
     <meta name="keywords" content="Huntar - Hunting & Outdoor Service HTML Template">
@@ -84,65 +84,68 @@
     <!--==============================
     Breadcrumb Area
   ==============================-->
-    <div class="vs-breadcrumb-wrapper breadcumb-layuout-1 bread-space" data-bg-src="assets/my-img/bread.jpg">
+    <section class="space-academy">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcumb-content pt-10 pb-20 d-sm-flex align-items-center text-center justify-content-sm-between">
-                        <h1 class="breadcumb-title text-white">Blogs</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="index.html"><i class="fal fa-home-alt"></i> Home</a></li>
-                            <li class="bread-btn active text-title">Blogs</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <div class="course-wrapper ">
+
+  <!-- TITLE -->
+  <h2 class="page-title text-center">WCF Community College</h2>
+  <p class="page-desc">
+    We provide trained and qualified professionals in paramedical science, supporting the healthcare industry with practical and industry-ready education.
+  </p>
+
+  <!-- ADMISSION INFO -->
+  <div class="info-cards">
+    <div class="info-card">
+      <h4><img src="assets/my-img/paper.png" width="60px" alt=""> Admission Open</h4>
+      <p>Applications invited for the next academic year</p>
     </div>
 
-
-    <div class="vs-services blog-spacing">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="vs-services-box mb-40">
-                        <div class="vs-services-thumb text-center">
-                            <a href="blog-details.html"><img src="assets/my-img/videos/b1.jpg" alt="service"></a>
-                        </div>
-                        <div class="vs-services-content">
-                            <h4 class="service-title"><a href="blog-details.html">The Roadmap to a Healthy Normal Delivery</a></h4>
-                            <p>Bringing a new life into the world is one of the most beautiful journeys a woman can experience.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="vs-services-box mb-40">
-                        <div class="vs-services-thumb text-center">
-                            <a href="blog-detail2.html"><img src="assets/my-img/videos/b2.jpg" alt="service"></a>
-                        </div>
-                        <div class="vs-services-content">
-                            <h4 class="service-title"><a href="blog-detail2.html">Postpartum Care for Mom</a></h4>
-                            <p>The postpartum period, often called the “fourth trimester,” is a crucial phase in a mother’s life. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="vs-services-box mb-40">
-                        <div class="vs-services-thumb text-center">
-                            <a href="blog-detail3.html"><img src="assets/my-img/videos/b3.jpg" alt="service"></a>
-                        </div>
-                        <div class="vs-services-content">
-                            <h4 class="service-title"><a href="blog-detail3.html">Newborn Essentials: The First 30 Days</a></h4>
-                            <p>The first 30 days with your newborn are filled with joy, learning, and adjustment.</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-            <!--/.row -->
-        </div>
-        <!--/.container-->
+    <div class="info-card">
+      <h4><img src="assets/my-img/resource-hub.png" width="60px" alt=""> Facilities</h4>
+      <p>Food and accommodation available for students</p>
     </div>
+  </div>
+
+  <!-- COURSES -->
+  <h3 class="section-title">Courses Offered</h3>
+
+  <div class="course-grid">
+
+    <div class="course-card">
+      <h4>Diploma in Obstetrics Patient Care</h4>
+      <p>Learn maternity care, patient handling, and delivery assistance.</p>
+      <span>Duration: 1 Year</span>
+      <button class="open-appointment">Apply Now</button>
+    </div>
+
+    <div class="course-card">
+      <h4>Diploma in First Aid Patient Care</h4>
+      <p>Gain emergency response and first aid treatment skills.</p>
+      <span>Duration: 1–2 Years</span>
+      <button class="open-appointment">Apply Now</button>
+    </div>
+
+  </div>
+
+  <!-- ELIGIBILITY -->
+  <div class="eligibility-box">
+    <h4>Eligibility</h4>
+    <p>Minimum Qualification: 12th Standard</p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact-box contact-boxx">
+    <h4>Contact</h4>
+    <p>WCF Community College</p>
+    <p>No.20, North Usman Road, T.Nagar, Chennai – 17</p>
+    <p>Email: wcfcollege@gmail.com</p>
+    <p><b>Phone: 89 3939 7777</b></p>
+  </div>
+
+</div>
+        </div>
+    </section>
 
     
   
@@ -186,17 +189,27 @@
     <script src="assets/js/common-header.js"></script>
 
 
-    <script>
+    <!-- <script>
         $(document).ready(function() {
-    $('.popup-video').magnificPopup({
+    // This 'delegated' version works even if videos are loaded via common JS
+    $('body').magnificPopup({
+        delegate: '.popup-video', 
         type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
+        gallery: {
+            enabled: true
+        },
+        iframe: {
+            patterns: {
+                youtube: {
+                    index: 'youtube.com/',
+                    id: 'v=',
+                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                }
+            }
+        }
     });
 });
-    </script>
+    </script> -->
 </body>
 
 </html>

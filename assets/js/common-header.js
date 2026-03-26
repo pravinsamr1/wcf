@@ -1,33 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
   const header = `
-    <div class="vs-menu-wrapper">
+  <div class="vs-menu-wrapper">
             <div class="vs-menu-area text-center">
-                <button class="vs-menu-toggle"><i
-                        class="fal fa-times"></i></button>
+                <button id="menuCloseBtn" class="vs-menu-toggle">
+  <i class="fal fa-times"></i>
+</button>
                 <div class="mobile-logo">
-                    <a href="index.html"><img src="assets/my-img/logo.png"
+                    <a href="index.html"><img src="assets/my-img/logo/logo.png"
                             alt="Huntar" /></a>
                 </div>
                 <div class="vs-mobile-menu">
                     <ul>
-                        <li class="menu-item-has-children">
-                            <a href="index.html">Demos</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Demo Style 1</a></li>
-                                <li><a href="index-2.html">Demo Style 2</a></li>
-                                <li><a href="index-3.html">Demo Style 3</a></li>
-                                <li><a href="index-4.html">Demo Style 4</a></li>
-                                <li><a href="index-5.html">Demo Style 5</a></li>
-                            </ul>
+                        <li class="">
+                            <a href="index.html">Home</a>
                         </li>
-                        <li class="menu-item-has-children">
-                            <a href="about-v1.html">About Us</a>
-                            <ul class="sub-menu">
-                                <li><a href="about-v1.html">About Us Style
-                                        1</a></li>
-                                <li><a href="about-v2.html">About Us Style
-                                        2</a></li>
-                            </ul>
+                        <li class="">
+                            <a href="about.html">About Us</a>
                         </li>
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
@@ -41,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
+                            <a href="#">Specialities</a>
                             <ul class="sub-menu">
                                 <li><a href="blog.html">Blog</a></li>
                                 <li><a href="blog-details.html">Blog
@@ -58,9 +46,21 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li><a href="error.html">Error Page</a></li>
                             </ul>
                         </li>
+
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="video.html">Videos</a>
+                        </li>
                         <li>
                             <a href="contact.html">Contact Us</a>
                         </li>
+
+                        <div class="book-appointt" style="background: #893cb3; margin-top:30px">
+                            <a href="academy.html" style="color: #fff" class="text-center">Join Our Academy</a>
+                        </div>
+                        
                     </ul>
                 </div>
             </div>
@@ -112,9 +112,9 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </li>
                             </ul>
                         </nav>
-                        <button class="vs-menu-toggle d-inline-block d-lg-none">
-                            <i class="far fa-bars"></i>
-                        </button>
+                        <button id="menuOpenBtn" class="vs-menu-toggle d-inline-block d-lg-none">
+  <i class="far fa-bars"></i>
+</button>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-6 col-sm-auto">
                             <div class="logo">
                                 <a href="index.html"><img
-                                        src="assets/my-img/logo.png"
+                                        src="assets/my-img/logo/logo.png" width="189" height="69"
                                         alt="logo" /></a>
                             </div>
                         </div>
@@ -187,7 +187,7 @@ document.addEventListener("DOMContentLoaded", function () {
   Header Area
   ==============================-->
         <header class="header5-menu z-index-step1">
-            <div class="container position-relative">
+            <div class="container position-relative mobile-top-headerr">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <nav
@@ -229,30 +229,34 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </li>
                             </ul>
                         </nav>
-                        <button
-                            type="button"
-                            class="vs-menu-toggle d-inline-block d-lg-none">
-                            <i class="far fa-bars"></i>
-                        </button>
+                        <button id="menuOpenBtn" class="vs-menu-toggle d-inline-block d-lg-none">
+  <i class="far fa-bars"></i>
+</button>
                     </div>
                     <div
                         class="col-auto"
                         style="display: flex; align-items: center; gap: 20px">
                         <div class="book-appoint open-appointment">
-                            <a href>Book Appointment</a>
+                            <a href="#" class="open-appointment">Book Appointment</a>
                         </div>
 
-                        <div class="book-appointt" style="background: #893cb3">
-                            <a href style="color: #fff">Join Our Academy</a>
+                        <div class="book-appointt btn-display-nonoe" style="background: #893cb3">
+                            <a href="academy.html" style="color: #fff">Join Our Academy</a>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
-    `;
+  `;
 
   document.getElementById("header").innerHTML = header;
+
+  // 🔥 IMPORTANT: re-run mobile menu plugin
+  setTimeout(() => {
+    if (typeof jQuery !== "undefined") {
+      $(".vs-menu-wrapper").vsmobilemenu();
+    }
+  }, 200);
 });
 
 document.addEventListener("DOMContentLoaded", function () {

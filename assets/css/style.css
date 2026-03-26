@@ -12634,3 +12634,211 @@ textarea {
   font-weight: 600;
   font-size: 18px;
 }
+
+
+
+
+
+
+
+.course-wrapper {
+  padding: 20px;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.page-desc {
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.info-cards {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.info-card {
+  flex: 1;
+  background: #fff5f8;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-title {
+  margin-bottom: 15px;
+}
+
+.course-grid {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.course-card {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.05); */
+  border: 1px solid #dbdbdb;
+}
+
+.course-card span {
+  display: block;
+  margin: 10px 0;
+  color: #888;
+}
+
+.course-card button {
+  background: #ff6b9d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.eligibility-box,
+.contact-boxx {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.space-academy{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+.home-aboutt{
+  margin-bottom: 0px;
+}
+
+.home-about-line{
+  margin-bottom: 30px;
+}
+
+/* .vs-menu-wrapper {
+  transform: translateX(-100%);
+  transition: 0.3s;
+}
+
+.vs-menu-wrapper.open {
+  transform: translateX(0);
+} */
+
+.about-space-page{
+  padding: 70px 0px 40px;
+}
+
+.about-page-center{
+  padding: 60px 0px 30px;
+}
+
+.wh-choose-space{
+  padding: 60px 0px;
+}
+
+.contact-us-space{
+  padding: 70px 0px 10px;
+}
+
+@media(max-width:767px){
+  .btn-display-nonoe{
+    display: none;
+  }
+
+  .book-appoint{
+    padding: 10px 15px;
+  }
+  .mobile-top-headerr{
+    padding: 10px;
+  }
+  .bread-space{
+    padding: 30px 0px;
+  }
+  .about-text{
+    font-size: 25px !important;
+  }
+  .about-spacee{
+    padding: 40px 0px 10px;
+  }
+  .about-img-box{
+    margin-bottom: 0px;
+  }
+
+  .service-space{
+    padding: 40px 0px 0px;
+  }
+
+  .vs-services-box2{
+    margin-bottom: 0px;
+  }
+
+  .timeline-wrapper{
+    padding: 40px 0px;
+  }
+
+  .timeline-wrapper h2{
+    padding: 0px 20px !important;
+    font-size: 23px;
+  }
+
+  .blog-space{
+    padding: 30px 0px 10px;
+  }
+
+  .testimony-space{
+    padding: 40px 0px 0px;
+  }
+
+  .appointment-space{
+    padding: 40px 0px;
+  }
+
+  .about-space-page{
+    padding: 40px 0px;
+  }
+
+  .text-justify{
+    text-align: justify;
+  }
+
+  .contact-us-space{
+    padding: 10px 0px;
+  }
+
+  .map-margin-topp{
+    margin-top: -50px;
+  }
+  
+}
+
+.vs-menu-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.vs-menu-wrapper.vs-body-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* menu panel */
+.vs-menu-area {
+  transform: translateX(-100%);
+  transition: 0.3s;
+}
+
+.vs-menu-wrapper.vs-body-visible .vs-menu-area {
+  transform: translateX(0);
+}
