@@ -12819,6 +12819,9 @@ textarea {
   .map-margin-topp{
     margin-top: -50px;
   }
+  .blog-content p{
+    text-align: justify;
+  }
   
 }
 
@@ -12842,3 +12845,4 @@ textarea {
 .vs-menu-wrapper.vs-body-visible .vs-menu-area {
   transform: translateX(0);
 }
+

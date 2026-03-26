@@ -282,11 +282,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         </a>
                                     </div>
                                     <p class="footer-text">
-                                        It is a long established fact that a
-                                        reader will be
-                                        distracted by the readable content Lorem
-                                        ipsum placeholder
-                                        text commonly used.
+                                        WCF Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services with over 25 years.
                                     </p>
                                     <div class="footer-social">
                                         <a target="_blank" href="https://www.facebook.com/tnagarwcf#"><i
