@@ -202,20 +202,15 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Demo Style
-                                                1</a></li>
-                                        <li><a href="index-2.html">Demo Style
-                                                2</a></li>
-                                        <li><a href="index-3.html">Demo Style
-                                                3</a></li>
-                                        <li><a href="index-4.html">Demo Style
-                                                4</a></li>
-                                        <li><a href="index-5.html">Demo Style
-                                                5</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
+                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
+                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="index-5.html">General & Laparoscopic Surgery</a></li>
                                     </ul>
                                 </li>
                                 <li
-                                    class="mega-menu-wrap menu-item-has-children">
+                                    class="">
                                     <a href="#">Specialities</a>
                                 </li>
                                 <li class>

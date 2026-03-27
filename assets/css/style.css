@@ -9571,7 +9571,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 .sidebar-area .widget {
   border-radius: 20px;
   border: 1px solid var(--border-color);
-  padding: 40px 35px;
+  padding: 40px 25px;
   /* Large devices */
 }
 @media (max-width: 1199px) {
@@ -12846,3 +12846,13 @@ textarea {
   transform: translateX(0);
 }
 
+
+
+.sidebar-sticky {
+  position: sticky;
+  top: 100px;
+}
+
+.bloogg{
+  list-style: none;
+}
