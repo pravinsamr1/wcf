@@ -91,15 +91,16 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog
-                                                Details</a></li>
-                                        <li><a href="team.html">Team</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
+                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
+                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="index-5.html">General & Laparoscopic Surgery</a></li>
                                     </ul>
                                 </li>
                                 <li
                                     class="mega-menu-wrap menu-item-has-children">
-                                    <a href="#">Specialities</a>
+                                    <a href="specialities.html">Specialities</a>
                                 </li>
                                 <li class="m">
                                     <a href="blog.html">Blog</a>
@@ -211,7 +212,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </li>
                                 <li
                                     class="">
-                                    <a href="#">Specialities</a>
+                                    <a href="specialities.html">Specialities</a>
                                 </li>
                                 <li class>
                                     <a href="blog.html">Blog</a>
@@ -290,36 +291,36 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-2 col-md-6">
                             <div class="widget widget_nav_menu footer-widget">
                                 <p class="widget_title">Useful Links</p>
                                 <div class="menu-all-pages-container">
                                     <ul>
-                                        <li><a href="index.html">Home
-                                                Page</a></li>
-                                        <li><a href="about.html">About
-                                                Us</a></li>
-                                        <li><a href="contact.html">Contact
-                                                Us</a></li>
-                                        <li><a href="blog.html">Hunting
-                                                Services</a></li>
-                                        <li><a href="blog.html">Our
-                                                Blog</a></li>
-                                        <li><a href="shop.html">Visit
-                                                Shop</a></li>
-                                        <li><a href="cart.html">Check
-                                                Cart</a></li>
-                                        <li><a
-                                                href="blog.html">Wishlist</a></li>
-                                        <li><a href="blog.html">Hunting
-                                                Team</a></li>
-                                        <li><a
-                                                href="contact.html">Support</a></li>
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="specialities.html">Spealities</a></li>
+                                        <li><a href="blog.html">Blogs</a></li>
+                                        <li><a href="video.html">Videos</a></li>
+                                        <li><a href="academy.html">Join Academy</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget_nav_menu footer-widget">
+                                <p class="widget_title">Our Services</p>
+                                <div class="menu-all-pages-container">
+                                    <ul>
+                                        <li><a href="womens-health-surgical-services.html">Specialized Women care</a></li>
+                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
+                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
                             <div
                                 class="widget widget_nav_menu footer-widget padding-l">
                                 <p class="widget_title">Contact Us</p>
@@ -334,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                                 <p class="info-footer">
                                     <i class="fas fa-location"></i><a
-                                        href="tel:+56923162156">North Usman Road, T Nagar, Chennai - 600 017</a>
+                                        href="tel:+56923162156">North Usman Road, <br> T Nagar, Chennai - 600 017</a>
                                 </p>
                                 
                             </div>
