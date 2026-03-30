@@ -12906,6 +12906,25 @@ textarea {
   padding: 0px 0px 50px;
 }
 
+.tagcloud span {
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 5px 3px;
+    border: 1px solid #e0e0e0; /* Light gray border like your image */
+    border-radius: 50px;       /* Rounded pill shape */
+    color: #e64a8d;            /* Pink text color from your logo */
+    font-size: 14px;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+/* Optional: Add a hover effect even if they aren't links */
+.tagcloud span:hover {
+    background-color: #e64a8d;
+    color: #fff;
+    border-color: #e64a8d;
+}
+
 @media(max-width:767px){
   .aboutt{
   font-size: 18px !important;
