@@ -2957,6 +2957,8 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 .footer-widget.widget_nav_menu ul li a {
   position: relative;
   color: var(--white-color);
+  font-size: 15px;
+  font-weight: 400;
 }
 .footer-widget.widget_nav_menu ul li a:after {
   content: "";
@@ -12557,6 +12559,8 @@ p{
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
+  margin-left: -10px;
+  text-align: justify;
 }
 
 
@@ -12827,6 +12831,14 @@ textarea {
   .blog-content p{
     text-align: justify;
   }
+
+  .blog-bullet-points li{
+  margin-left: -15px;
+}
+
+.aboutt{
+  font-size: 18px !important;
+}
   
 }
 
@@ -12883,4 +12895,43 @@ textarea {
 
 .aboutt{
   font-size: 27px !important;
+}
+
+.footer-padding-space{
+  padding: 10px 0px -40px;
+   padding-top: 70px;
+}
+
+.paddding-bottomm{
+  padding: 0px 0px 50px;
+}
+
+@media(max-width:767px){
+  .aboutt{
+  font-size: 18px !important;
+}
+.sidebar-area .widget{
+  display: none;
+}
+.footer-padding-space{
+  padding: 10px 0px 0px;
+   padding-top: 40px;
+}
+.paddingg-footer{
+  padding: 0px !important;
+}
+.info-cards{
+  display: block;
+}.course-grid{
+  display: block;
+}
+.page-title{
+  font-size: 23px;
+}
+.space-academy{
+  padding: 20px 0px;
+}
+.info-card1{
+  margin-top: 20px;
+}
 }

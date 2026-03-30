@@ -20,31 +20,15 @@ document.addEventListener("DOMContentLoaded", function () {
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="services-v1.html">Services Style
-                                        1</a></li>
-                                <li><a href="services-v2.html">Services Style
-                                        2</a></li>
-                                <li><a href="services-details.html">Services
-                                        Details</a></li>
+                                <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
+                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
+                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="index-5.html">General & Laparoscopic Surgery</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
-                            <a href="#">Specialities</a>
-                            <ul class="sub-menu">
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="blog-details.html">Blog
-                                        Details</a></li>
-                                <li><a href="team.html">Team</a></li>
-                                <li><a href="team-details.html">Team
-                                        Details</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-details.html">Shop
-                                        Details</a></li>
-                                <li><a href="cart.html">Shopping Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="error.html">Error Page</a></li>
-                            </ul>
+                            <a href="specialities.html">Specialities</a>
                         </li>
 
                         <li>
@@ -258,13 +242,12 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   const footer = `
     <footer
-    class="footer-wrapper footer-layout1 bg2 space-top space-md-top"
+    class="footer-wrapper footer-layout1 bg2 space-top space-md-top footer-padding-space"
     data-bg-src="/assets/my-img/footer.jpg" 
-    style="padding: 10px 0px -40px; padding-top: 70px; background-image: url('assets/my-img/footer.jpg');">
+    style="background-image: url('assets/my-img/footer.jpg');">
             <div class="container">
                 <div
-                    class="widget-area space-bottom space-md-bottom"
-                    style="padding-bottom: 50px">
+                    class="widget-area space-bottom space-md-bottom paddding-bottomm">
                     <div
                         class="row align-items-start justify-content-center justify-content-lg-between">
                         <div
@@ -322,7 +305,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div
-                                class="widget widget_nav_menu footer-widget padding-l">
+                                class="widget widget_nav_menu footer-widget paddingg-footer padding-l">
                                 <p class="widget_title">Contact Us</p>
                                 <p class="info-footer">
                                     <i class="fas fa-envelope"></i><a
