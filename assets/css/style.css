@@ -12927,6 +12927,7 @@ textarea {
     border-radius: 50px;       /* Rounded pill shape */
     color: #e64a8d;            /* Pink text color from your logo */
     font-size: 14px;
+    font-weight: 500;
     background: #fff;
     transition: all 0.3s ease;
 }

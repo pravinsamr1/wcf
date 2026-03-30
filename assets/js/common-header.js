@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     </ul>
                                 </li>
                                 <li
-                                    class="mega-menu-wrap menu-item-has-children">
+                                    class="">
                                     <a href="specialities.html">Specialities</a>
                                 </li>
                                 <li class="m">
