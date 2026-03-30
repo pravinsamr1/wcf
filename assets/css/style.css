@@ -12313,7 +12313,7 @@ p{
   text-align: center;
   padding: 40px;
   overflow: hidden;
-  padding: 70px 0px;
+  padding: 50px 0px;
 }
 
 .timeline-wrapper h2 {
@@ -12414,7 +12414,7 @@ p{
 }
 
 .service-space{
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 40px;
 }
 
@@ -12645,6 +12645,19 @@ textarea {
 }
 
 
+@media(max-width:767px){
+  .form-group {
+  display: block;
+  margin-bottom: 0px;
+}
+
+.form-group input,
+.form-group select,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+}
 
 
 
@@ -12953,4 +12966,61 @@ textarea {
 .info-card1{
   margin-top: 20px;
 }
+}
+
+/* Styling for the Solid Pink Card */
+.widget_call_card_solid {
+    background-color: #e64a8d; /* Set card background to Pink */
+    border-radius: 20px;
+    padding: 30px 25px;
+    margin-top: 20px;
+    /* box-shadow: 0 15px 35px rgba(230, 74, 141, 0.2); */
+    text-align: center;
+    color: #fff; /* Set all text in the widget to White */
+}
+
+/* Call Icon Styling */
+.widget_call_card_solid .call-icon {
+    width: 65px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.15); /* Light white translucent background */
+    color: #fff; /* White icon */
+    font-size: 30px;
+    line-height: 65px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+/* Text Titles Styling */
+.widget_call_card_solid .call-title {
+    color: #fff; /* White title */
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.widget_call_card_solid .call-subtitle {
+    color: rgba(255, 255, 255, 0.8); /* Slightly faded white for subtitle */
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Phone Number Styling */
+.widget_call_card_solid .call-number {
+    display: inline-block;
+    color: #fff; /* White phone number */
+    font-size: 22px;
+    font-weight: 800;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for the Number */
+.widget_call_card_solid .call-number:hover {
+    background: #fff; /* Flip colors on hover */
+    color: #e64a8d;
+    transform: translateY(-3px);
 }
