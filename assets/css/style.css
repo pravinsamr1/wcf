@@ -1347,7 +1347,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 .scrollToTop {
   position: fixed;
   bottom: 100px;
-  right: 40px;
+  left: 40px;
   z-index: 94;
   opacity: 0;
   visibility: hidden;
@@ -12559,7 +12559,7 @@ p{
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  margin-left: -10px;
+  margin-left: 10px;
   text-align: justify;
 }
 
@@ -12939,6 +12939,14 @@ textarea {
     border-color: #e64a8d;
 }
 
+.testinomy-headd{
+  font-size: 35px !important;
+}
+
+.testimony-btn{
+  margin-top: -30px;
+}
+
 @media(max-width:767px){
   .aboutt{
   font-size: 18px !important;
@@ -12966,6 +12974,87 @@ textarea {
 }
 .info-card1{
   margin-top: 20px;
+}
+.testimony-btn{
+  padding-bottom: 30px;
+}
+}
+
+.emergency-call-wrapper {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.emergency-sticky-btn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* The Icon Circle */
+.emergency-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #d9232d; /* Emergency Red */
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 15px rgba(217, 35, 45, 0.4);
+    position: relative;
+    z-index: 2;
+    animation: pulse-red 2s infinite;
+}
+
+/* The Pop-up Text */
+.emergency-text {
+    background-color: #d9232d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px 0 0 30px;
+    font-weight: 600;
+    margin-right: -20px; /* Slight overlap with icon */
+    padding-right: 30px;
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(20px);
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+
+/* Hover Effect: Text pops out */
+.emergency-sticky-btn:hover .emergency-text {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Optional: Subtle pulse animation for the icon to grab attention */
+@keyframes pulse-red {
+    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(217, 35, 45, 0.7); }
+    70% { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(217, 35, 45, 0); }
+    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(217, 35, 45, 0); }
+}
+
+/* Mobile: Show text by default or keep it compact */
+@media (max-width: 768px) {
+    .emergency-text {
+        display: none; /* Keeps it just an icon on mobile to avoid blocking content */
+    }
+}
+
+@media(max-width:767px){
+  .emergency-call-wrapper {
+    bottom: 10px;
+    right: 10px;
+}
+.scrollToTop {
+  bottom: 100px;
+  left: 10px;
 }
 }
 
