@@ -321,7 +321,7 @@
                     <div class="vs-counter-box">
                         <div class="media-icon"><i class="fal fa-baby-carriage"></i></div>
                         <div class="media-body">
-                            <h2 class="sec-title3 counter-value" data-target="5000">0</h2>
+                            <h2 class="sec-title3 counter-value" data-target="25000">0</h2>
                             <h4 class="fw-medium">Happy Deliveries</h4>
                         </div>
                     </div>
@@ -351,11 +351,21 @@
                     <div class="vs-counter-box">
                         <div class="media-icon"><i class="fal fa-hand-holding-heart"></i></div>
                         <div class="media-body">
-                            <h2 class="sec-title3 counter-value" data-target="200">0</h2>
+                            <h2 class="sec-title3 counter-value" data-target="25">0</h2>
                             <h4 class="fw-medium">Expert Support Staff</h4>
                         </div>
                     </div>
                 </div>
+
+                <!-- <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="vs-counter-box">
+                        <div class="media-icon"><i class="fal fa-hand-holding-heart"></i></div>
+                        <div class="media-body">
+                            <h2 class="sec-title3 counter-value" data-target="25">0+</h2>
+                            <h4 class="fw-medium">Expert Support Staff</h4>
+                        </div>
+                    </div>
+                </div> -->
 
             </div>
         </div>
@@ -966,7 +976,7 @@
                             class="join-form mb-30"
                             data-bg-src="assets/img/bg/form-bg-1.png">
                             <div class="semi-title-box mb-35">
-                                <h6 class="text-theme fs-14 fw-medium mb-2">
+                                <h6 class="text-black fs-14 fw-medium mb-2">
                                     Do it right now!
                                 </h6>
                                 <h4 class="text-title mb-35">Book An
@@ -1126,7 +1136,7 @@
             // Formatting the final number
             if (target >= 1000) {
                 el.innerText = (target / 1000).toFixed(1).replace('.0', '') + 'k';
-            } else if (target === 50 || target === 200) {
+            } else if (target === 50 || target === 200 || target === 25) {
                 el.innerText = target + '+';
             } else {
                 el.innerText = target;

@@ -450,7 +450,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <div class="col-lg-6 text-start text-md-end">
                             <p class="mb-0 link-inherit fw-light text-white footerrr">
-                                Designed By <a href="https://impinfo.in" target="_blank">Imperial Info Systems</a>
+                                Designed By <a href="https://dodoinfotech.com/" target="_blank">Dodo Infotech</a>
                             </p>
                         </div>
                     </div>
