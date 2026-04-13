@@ -13231,6 +13231,6 @@ p{
   margin-left: 15px;
 }
 .rebrand-box{
-  padding: 15px;
+  padding: 15px !important;
 }
 }
