@@ -3636,7 +3636,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 @media (max-width: 1199px) {
   .hero-layout4 .vs-hero-bg {
-    padding: 145px 0 120px 0 !important;
+    padding: 145px 0 120px 0;
   }
 }
 @media (max-width: 991px) {
@@ -4001,7 +4001,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 
 .feature-bg {
-  padding: 60px 0 40px 0;
+  padding: 50px 0 0px 0;
   margin-left: 230px;
   margin-right: 230px;
   box-shadow: 0px 20px 117px 0px rgba(37, 69, 116, 0.06);
@@ -4009,6 +4009,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
   z-index: 3;
   margin-top: -120px;
   border-radius: 20px;
+  border: 1px solid #dbdbdb;
   /* Extra large devices */
   /* Large devices */
   /* Medium devices */
@@ -12403,7 +12404,7 @@ p{
 }
 
 .about-spacee{
-  padding-top: 70px;
+  padding-top: 50px;
   padding-bottom: 40px;
 
 }
@@ -13113,4 +13114,120 @@ textarea {
     background: #fff; /* Flip colors on hover */
     color: #e64a8d;
     transform: translateY(-3px);
+}
+
+/* 1. Set the default card styling (Purple headers, pink icons, shadow) */
+.vs-card-hover {
+    background: #ffffff;
+    border: 1px solid #f0f0f0;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05); /* Match your template's shadow */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    height: 100%; /* Ensures equal height in a row */
+}
+
+/* Base Typography for the card */
+.vs-card-hover .feature-content h4 {
+    color: #3D203F; /* Initial Purple color */
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.vs-card-hover .feature-content p {
+    color: #555555; /* Neutral body text */
+    transition: color 0.3s ease;
+}
+
+/* 2. Style the Oval Icon Wrapper and the Icon itself */
+.vs-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Width of the entire icon area */
+    height: 80px; /* Height provides the vertical oval shape */
+    flex-shrink: 0; /* Prevents shrinking if text is long */
+}
+
+/* The vertical oval shape from image_0.png */
+.vs-icon-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(245, 78, 150, 0.4); /* Faded pink border */
+    border-radius: 40% 40% 40% 40%; /* Creates the specific oval from image_0 */
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+/* The actual Font Awesome Icon styling */
+.vs-icon-wrapper i {
+    position: relative;
+    font-size: 32px;
+    color: #F54E96; /* Match your pink icon color */
+    z-index: 1; /* Puts icon above the ::before shape */
+    transition: color 0.3s ease;
+}
+
+/* ========================================= */
+/* 3. HOVER EFFECTS (Crucial)                */
+/* ========================================= */
+
+/* When the card is hovered, change background to pink */
+.vs-card-hover:hover {
+    background-color: #F54E96; /* Pink background on hover */
+    border-color: #F54E96;
+}
+
+/* When the card is hovered, change text to White */
+.vs-card-hover:hover .feature-content h4,
+.vs-card-hover:hover .feature-content p {
+    color: #ffffff;
+}
+
+/* On hover, change the icon back to Purple (optional but usually improves contrast) */
+.vs-card-hover:hover .vs-icon-wrapper i {
+    color: #3D203F; 
+}
+
+/* Make the oval shape semi-transparent white on hover to make icon pop */
+.vs-card-hover:hover .vs-icon-wrapper::before {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: transparent;
+}
+
+.space-top-about-top{
+  padding-top: 60px;
+}
+
+.space-bottom-about-bottom{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+@media(max-width:767px){
+  .space-top-about-top{
+    padding-top: 30px;
+  }
+  .space-bottom-about-bottom{
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.features-top-margin{
+  top: -50px;
+  margin-bottom: -50px;
+}
+.fetaures-top-banner{
+  padding: 5px;
+}
+p{
+  text-align: justify;
+}
+.bloogg{
+  margin-left: 15px;
+}
 }

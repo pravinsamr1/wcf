@@ -294,10 +294,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p class="widget_title">Our Services</p>
                                 <div class="menu-all-pages-container">
                                     <ul>
-                                        <li><a href="womens-health-surgical-services.html">Specialized Women care</a></li>
-                                        <li><a href="maternity-care.html">Maternity Care</a></li>
-                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
-                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Fertility & Women’s Health</a></li>
+                                        <li><a href="maternity-care.html">Maternity & Pregnancy Care</a></li>
+                                        <li><a href="specialized-children-care.html">Newborn & Pediatric Care</a></li>
+                                        <li><a href="critical-care-services.html">Diagnostics & Support</a></li>
                                         <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
                                     </ul>
                                 </div>
@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         </a>
                                     </div>
                                     <p class="footer-text">
-                                        WCF MoM & BabY Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services for 25 years.
+                                        MoM & BabY Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services for 25 years.
                                     </p>
                                     <div class="footer-social">
                                         <a target="_blank" href="https://www.facebook.com/tnagarwcf#"><i
@@ -407,10 +407,10 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p class="widget_title">Our Services</p>
                                 <div class="menu-all-pages-container">
                                     <ul>
-                                        <li><a href="womens-health-surgical-services.html">Specialized Women care</a></li>
-                                        <li><a href="maternity-care.html">Maternity Care</a></li>
-                                        <li><a href="specialized-children-care.html">Specialized Children care</a></li>
-                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Fertility & Women’s Health</a></li>
+                                        <li><a href="maternity-care.html">Maternity & Pregnancy Care</a></li>
+                                        <li><a href="specialized-children-care.html">Newborn & Pediatric Care</a></li>
+                                        <li><a href="critical-care-services.html">Diagnostics & Support</a></li>
                                         <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
                                     </ul>
                                 </div>
