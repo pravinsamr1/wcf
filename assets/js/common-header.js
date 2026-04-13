@@ -374,7 +374,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                         </a>
                                     </div>
                                     <p class="footer-text">
-                                        WCF Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services with over 25 years.
+                                        WCF MoM & BabY Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services for 25 years.
                                     </p>
                                     <div class="footer-social">
                                         <a target="_blank" href="https://www.facebook.com/tnagarwcf#"><i
@@ -430,8 +430,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 </p>
 
                                 <p class="info-footer">
-                                    <i class="fas fa-location"></i><a
-                                        href="tel:+56923162156">North Usman Road, <br> T Nagar, Chennai - 600 017</a>
+                                    <i class="fas fa-location"></i>North Usman Road, <br> T Nagar, Chennai - 600 017
                                 </p>
                                 
                             </div>

@@ -3628,7 +3628,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 
 .hero-layout4 .vs-hero-bg {
-  padding: 100px 0 50px 0;
+  padding: 100px 0 150px 0;
   position: relative;
   z-index: 2;
   /* Large devices */
@@ -3636,7 +3636,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
 }
 @media (max-width: 1199px) {
   .hero-layout4 .vs-hero-bg {
-    padding: 145px 0 135px 0;
+    padding: 145px 0 120px 0 !important;
   }
 }
 @media (max-width: 991px) {
@@ -3741,7 +3741,7 @@ i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
     margin-bottom: 18px;
   }
   .hero-layout4 .vs-hero-bg {
-    padding: 140px 0 110px 0;
+    padding: 140px 0 150px 0;
   }
 }
 /* Large devices */
