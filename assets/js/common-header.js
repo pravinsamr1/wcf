@@ -443,7 +443,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="row align-items-center">
                         <div class="col-lg-6 text-center text-lg-start">
                             <p class="mb-0 link-inherit fw-light text-white py-10 footerrr">
-                                &copy; 2026 <a href="index.html">WCF Hospital</a>. All
+                                &copy; 2026 <a href="index.html">MoM & BabY Hospital</a>. All
                                 Rights Reserved.
                             </p>
                         </div>
