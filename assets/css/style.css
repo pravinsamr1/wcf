@@ -13265,3 +13265,115 @@ p{
   font-size: 30px !important;
 }
 }
+
+/*------------------- 8.27. Widget Call Card Solid -------------------*/
+.widget_call_card_solid {
+  position: relative;
+  background: linear-gradient(135deg, #3D203F 0%, #5A2D5C 100%);
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  color: var(--white-color);
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(61, 32, 63, 0.2);
+  margin-bottom: 40px;
+  border: none;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.widget_call_card_solid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(61, 32, 63, 0.3);
+}
+
+/* Background decorative circles */
+.widget_call_card_solid::before,
+.widget_call_card_solid::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.widget_call_card_solid::before {
+  width: 150px;
+  height: 150px;
+  top: -50px;
+  right: -50px;
+}
+
+.widget_call_card_solid::after {
+  width: 100px;
+  height: 100px;
+  bottom: -30px;
+  left: -30px;
+}
+
+.widget_call_card_solid .call-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget_call_card_solid .call-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--theme-color); /* Pink color #F54E96 */
+  color: var(--white-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+  box-shadow: 0 8px 20px rgba(245, 78, 150, 0.3);
+  transition: transform 0.5s ease;
+}
+
+.widget_call_card_solid:hover .call-icon {
+  transform: rotate(15deg) scale(1.05);
+}
+
+.widget_call_card_solid .call-info {
+  width: 100%;
+}
+
+.widget_call_card_solid h5.call-title,
+.widget_call_card_solid .call-title,
+.widget_call_card_solid h5 {
+  color: #ffffff !important;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: var(--theme-font);
+}
+
+.widget_call_card_solid .call-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.widget_call_card_solid .call-number {
+  display: inline-block;
+  color: var(--white-color) !important;
+  background-color: var(--theme-color);
+  font-size: 18px;
+  font-weight: 700;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(245, 78, 150, 0.2);
+}
+
+.widget_call_card_solid .call-number:hover {
+  background-color: var(--white-color);
+  color: #3D203F !important;
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
