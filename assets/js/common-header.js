@@ -20,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         <li class="menu-item-has-children">
                             <a href="#">Services</a>
                             <ul class="sub-menu">
-                                <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
-                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                 <li><a href="maternity-care.html">Maternity & Pregnancy Care</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Fertility & Women’s Health</a></li>
                                         <li><a href="specialized-children-care.html">Specialized Children care</a></li>
-                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
                                         <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
+                                        <li><a href="critical-care-services.html">Dignostic & Support</a></li>
                             </ul>
                         </li>
                         <li class="menu-item-has-children">
@@ -75,11 +75,11 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
-                                        <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
-                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                     <li><a href="maternity-care.html">Maternity & Pregnancy Care</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Fertility & Women’s Health</a></li>
                                         <li><a href="specialized-children-care.html">Specialized Children care</a></li>
-                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
                                         <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
+                                        <li><a href="critical-care-services.html">Dignostic & Support</a></li>
                                     </ul>
                                 </li>
                                 <li
@@ -187,11 +187,11 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <li class="menu-item-has-children">
                                     <a href="#">Services</a>
                                     <ul class="sub-menu">
-                                        <li><a href="womens-health-surgical-services.html">Women’s Health & Surgical Services</a></li>
-                                        <li><a href="maternity-care.html">Maternity Care</a></li>
+                                    <li><a href="maternity-care.html">Maternity & Pregnancy Care</a></li>
+                                        <li><a href="womens-health-surgical-services.html">Fertility & Women’s Health</a></li>
                                         <li><a href="specialized-children-care.html">Specialized Children care</a></li>
-                                        <li><a href="critical-care-services.html">Critical Care Services</a></li>
                                         <li><a href="general-laparoscopic-surgery.html">General & Laparoscopic Surgery</a></li>
+                                        <li><a href="critical-care-services.html">Dignostic & Support</a></li>
                                     </ul>
                                 </li>
                                 <li
