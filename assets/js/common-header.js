@@ -262,7 +262,11 @@ document.addEventListener("DOMContentLoaded", function () {
                                         </a>
                                     </div>
                                     <p class="footer-text">
+<<<<<<< HEAD
                                         Mom & Baby Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services for 25 years.
+=======
+                                        MoM & BabY Hospital, T. Nagar delivers trusted women’s, maternity, pediatric, and advanced healthcare services for 25 years.
+>>>>>>> e0c0f214f46ded50534e64348ed90b1fda4e0f20
                                     </p>
                                     <div class="footer-social">
                                         <a target="_blank" href="https://www.facebook.com/tnagarwcf#"><i
